@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+.headings{
+    background-color: steelblue;
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    padding: 1rem;
+}
+
+.colorr{
+    font-size: 3rem;
+}
+
+.nav-bar{
+    background-color: white;
+    color: steelblue;
+    font-size: 1.2rem ;
+    font-weight: bold;
+}
+
+nav .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+nav span{
+    display: inline-blockx;
+    margin: 0 0.7rem;
+    padding: 0.2 0.3 rem;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.square{
+    margin-top: 1.5rem;
+    height: 10rem;
+    width: 10rem;
+    background-color: aliceblue;
+    border: 1px solid transparent;
+    border-radius: 1.5rem;
+}
+
+.container{
+    width: 35%;
+    margin: auto;
+}
+
+.selected{
+    background-color: steelblue;
+    color: white;
+}
